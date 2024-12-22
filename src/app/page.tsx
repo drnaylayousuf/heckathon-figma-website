@@ -114,20 +114,21 @@ export default function Home() {
   </Link>
 </div>
 
-   {/* Popular Products Section */}
+{/* Popular Products Section */}
 <div className="pb-7 self-start ml-4 sm:ml-12 mt-8 text-indigo-950 text-2xl font-semibold">
   Our Popular Products
 </div>
 
 {/* Popular Products Images Section */}
-<div className="mt-6 flex flex-col sm:flex-row justify-between gap-6">
+<div className="mt-6 flex flex-col sm:flex-row sm:justify-between gap-6">
   {/* First image with larger width */}
   <div className="w-full sm:w-[60%] h-auto overflow-hidden text-start">
     <Image
       src="/pp1.png" // Replace with the path to your image
       alt="Popular Product 1"
-      className=" sm:h-[300px] object-cover"
-       width={650} height={500}
+      className="h-[200px] sm:h-[300px] lg:h-[400px] object-cover w-full"
+      width={650}
+      height={500}
     />
     <h3 className="mt-2 text-lg font-medium text-gray-800 ml-2">Popular Product 1</h3>
     <p className="text-sm text-gray-600 ml-2">€40</p>
@@ -138,8 +139,9 @@ export default function Home() {
     <Image
       src="/pp2.png" // Replace with the path to your image
       alt="Popular Product 2"
-      className=" sm:h-[300px] object-cover"
-      width={320} height={250}
+      className="h-[200px] sm:h-[300px] lg:h-[400px] object-cover w-full"
+      width={320}
+      height={250}
     />
     <h3 className="mt-2 text-lg font-medium text-gray-800 ml-2">Popular Product 2</h3>
     <p className="text-sm text-gray-600 ml-2">€50</p>
@@ -150,14 +152,15 @@ export default function Home() {
     <Image
       src="/pp3.png" // Replace with the path to your image
       alt="Popular Product 3"
-      className=" sm:h-[300px] object-cover"
-    width={320} height={250}
-
+      className="h-[200px] sm:h-[300px] lg:h-[400px] object-cover w-full"
+      width={320}
+      height={250}
     />
     <h3 className="mt-2 text-lg font-medium text-gray-800 ml-2">Popular Product 3</h3>
     <p className="text-sm text-gray-600 ml-2">€60</p>
   </div>
 </div>
+
 
 
       {/* New Button after Popular Products */}
