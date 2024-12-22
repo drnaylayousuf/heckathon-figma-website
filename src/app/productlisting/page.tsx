@@ -21,7 +21,7 @@ export default function Productlisting() {
 
 
             <div className="mt-9 p-4">
-                <div className="flex items-center justify-between mb-4">
+                {/* <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-4">
                         <select className="w-32 px-4 py-2 ">
                             <option value="">Category</option>
@@ -52,7 +52,7 @@ export default function Productlisting() {
                             <option value="date2">Date 2</option>
                         </select>
                     </div>
-                </div>
+                </div> */}
 
 
 {/* First list product line */}
@@ -146,7 +146,7 @@ export default function Productlisting() {
 <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 px-2">
     <div className="bg-gray-100 rounded-lg mx-auto">
         <Link href="/product/1">
-            <Image src="/pl9.jpeg" alt="Round Chair" width={350} height={300} className="rounded-lg" />
+            <Image src="/pl1.png" alt="Round Chair" width={350} height={300} className="rounded-lg" />
         </Link>
         <div className="p-2">
             <h3 className="text-lg font-bold">Round Chair</h3>
